@@ -17,4 +17,51 @@
 
 
 
+Sure! Here's a **GitHub-friendly EDA summary** (in Markdown format) for your Titanic dataset analysis. You can directly copy-paste this into your GitHub README.md file:
+
+
+**TASK - 2**
+
+Exploratory Data Analysis (EDA) Summary - Titanic Dataset
+
+1. Summary Statistics
+
+Calculated **mean**, **median**, **standard deviation**, etc., for all numerical features.
+  Age mean: \~29 years, with some missing values.
+  Fare had a wide range, with a few passengers paying extremely high amounts.
+  Survived distribution was imbalanced (more passengers did not survive).
+
+
+2. Histograms & Boxplots
+
+Histograms revealed:
+
+  Age was normally distributed.
+    Fare was right-skewed (many low values, few high ones).
+  Boxplots showed:
+
+  Outliers in Fare and Age.
+  Class-based differences in fare prices.
+
+ Patterns, Trends & Anomalies
+
+Patterns
+
+* Higher **fare** → higher chance of **survival**.
+* Lower **class** → lower chance of **survival**.
+* Most passengers were from **3rd class**.
+* Majority aged between **20–40** years.
+
+Trends
+
+Survival was imbalanced: More passengers did not survive.
+Women and first-class passengers had better survival rates.
+
+ Anomalies (Outliers)
+
+Fare: A few extreme high values.
+Age: Some passengers were unusually old.
+SibSp/Parch: A few had unusually large families onboard.
+
+
 
