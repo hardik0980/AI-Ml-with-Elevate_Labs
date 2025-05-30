@@ -81,11 +81,28 @@ This project focuses on building a machine learning model to classify breast can
 
 Key Steps:
 Data Loading & Cleaning: Loaded dataset and handled missing/null values.
-
 Exploratory Data Analysis (EDA): Performed basic analysis to understand data distribution.
-
 Feature Selection: Chose important features for better model performance.
-
 Model Building: Trained machine learning models such as Logistic Regression.
-
 Model Evaluation: Achieved a 95% accuracy, using confusion matrix, ROC-Curve and classification report for validation.
+
+**Que - What is the Sigmoid Function?**
+The sigmoid function is a mathematical function used to map predicted values to a probability between 0 and 1.
+​
+ 
+If output ≥ 0.5 → class 1 (e.g., Malignant)
+If output < 0.5 → class 0 (e.g., Benign)
+
+You can change this threshold (e.g., to 0.6 or 0.4) based on model goals.
+
+** Why Tune the Threshold?**
+
+Default threshold is 0.5, but that may not always give best results.
+By changing the threshold, you can:
+Increase recall (catch more true positives)
+Reduce false positives or false negatives
+
+Especially useful in medical diagnosis where false negatives (missing a cancer case) are more dangerous than false positives.
+
+
+
