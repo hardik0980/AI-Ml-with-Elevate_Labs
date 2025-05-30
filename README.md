@@ -73,3 +73,19 @@ A machine learning project for housing price prediction using multiple regressio
 3. Fit a Linear Regression model using sklearn.linear_model.
 4. Evaluate model using MAE, MSE, R².
 5. Plot regression line and interpret coefficients.
+   
+
+**Task- 4 :Breast Cancer Prediction using Machine Learning**
+
+This project focuses on building a machine learning model to classify breast cancer as malignant or benign using the Breast Cancer Wisconsin (Diagnostic) Dataset.
+
+Key Steps:
+Data Loading & Cleaning: Loaded dataset and handled missing/null values.
+
+Exploratory Data Analysis (EDA): Performed basic analysis to understand data distribution.
+
+Feature Selection: Chose important features for better model performance.
+
+Model Building: Trained machine learning models such as Logistic Regression.
+
+Model Evaluation: Achieved a 95% accuracy, using confusion matrix, ROC-Curve and classification report for validation.
