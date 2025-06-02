@@ -105,4 +105,32 @@ Reduce false positives or false negatives
 Especially useful in medical diagnosis where false negatives (missing a cancer case) are more dangerous than false positives.
 
 
+**TASK -5**
+**Decision Tree vs Random Forest Classifier - Internship Task**
+
+This project demonstrates the use of Decision Tree and Random Forest classifiers for a supervised classification problem. The notebook includes model training, visualization, performance analysis, and evaluation using cross-validation.
+
+Trained a Decision Tree Classifier
+
+Visualized the tree structure using plot_tree.
+
+Analyzed Overfitting
+
+Controlled max_depth to study model complexity vs accuracy.
+
+Trained a Random Forest Classifier
+
+Compared accuracy with Decision Tree.
+
+Feature Importance
+
+Identified top contributing features using feature_importances_.
+
+Model Evaluation
+
+Used train_test_split and cross_val_score for validation.
+
+
+
+
 
