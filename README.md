@@ -134,3 +134,18 @@ Used train_test_split and cross_val_score for validation.
 
 
 
+**TASK - 6**
+
+1.Choose a classification dataset and normalize features.
+2.Use KNeighborsClassifier from sklearn.
+3.Experiment with different values of K.
+4.Evaluate model using accuracy, confusion matrix.
+5.Visualize decision boundaries.
+
+
+In this project, we used the** K-Nearest Neighbors (KNN) **algorithm to classify the Iris dataset. We split the data into training and testing sets, then scaled the features for better model performance. We tested KNN models with different values of K (from 1 to 10) and evaluated their accuracy on the test set to find the optimal number of neighbors.
+
+The best K value was selected based on the highest accuracy score. Finally, we visualized the decision boundaries of the trained KNN model on two features of the scaled dataset. This visualization helps us understand how the model separates different classes based on their features.
+
+
+
