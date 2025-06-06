@@ -178,3 +178,28 @@ Evaluate model performance using cross-validation, confusion matrix, and classif
 
 **accuracy is 97 % **
 
+
+
+
+
+
+
+**TASK- 8**
+
+**Mall Customer Segmentation using K-Means**
+
+This notebook performs unsupervised clustering on mall customer data to group similar customers using the K-Means algorithm.
+
+**Key Steps:**
+
+Load and Preprocess Data – Cleaned and explored customer attributes.
+
+Optional PCA – Reduced dimensions for better 2D visualization.
+
+K-Means Clustering – Applied K-Means and assigned cluster labels.
+
+Optimal K Selection – Used Elbow Method to find the best number of clusters.
+
+Cluster Visualization – Plotted customers with color-coded clusters.
+
+Evaluation – Measured clustering quality using the Silhouette Score.
